@@ -16,8 +16,8 @@
     "threads": 4,           // number of miner threads
     "pools": [
         {
-            "url": "xmr.pool.minergate.com:45560", // URL of mining server
-            "user": "rudebono@gmail.com",  // username for mining server
+            "url": "pool.supportxmr.com:5555", // URL of mining server
+            "user": "45Svwcfm34T2p9mgwA2CNPMkKbJEf8bzKAc1omXLD8VmPGJAWzGyG51EFM4YL8JkhwEch6bLWkBQLZKKXBccCabVBLqBXCn",  // username for mining server
             "pass": "x",                       // password for mining server
             "keepalive": true,                 // send keepalived for prevent timeout (need pool support)
             "nicehash": false                  // enable nicehash/xmrig-proxy support
