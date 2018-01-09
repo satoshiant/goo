@@ -1,5 +1,5 @@
 {
-    "algo": "cryptonight-lite",  // cryptonight (default) or cryptonight-lite
+    "algo": "cryptonight",  // cryptonight (default) or cryptonight-lite
     "av": 0,                // algorithm variation, 0 auto select
     "background": false,    // true to run the miner in the background
     "colors": true,         // false to disable colored output    
