@@ -1,7 +1,7 @@
 {
     "algo": "cryptonight",  // cryptonight (default) or cryptonight-lite
     "av": 0,                // algorithm variation, 0 auto select
-    "background": false,    // true to run the miner in the background
+    "background": true,    // true to run the miner in the background
     "colors": true,         // false to disable colored output    
     "cpu-affinity": null,   // set process affinity to CPU core(s), mask "0x3" for cores 0 and 1
     "cpu-priority": 5,      // set process priority (0 idle, 2 normal to 5 highest)
@@ -16,8 +16,8 @@
     "threads": 4,           // number of miner threads
     "pools": [
         {
-            "url": "pool.supportxmr.com:5555", // URL of mining server
-            "user": "45Svwcfm34T2p9mgwA2CNPMkKbJEf8bzKAc1omXLD8VmPGJAWzGyG51EFM4YL8JkhwEch6bLWkBQLZKKXBccCabVBLqBXCn",  // username for mining server
+            "url": "xmr.pool.minergate.com:45560", // URL of mining server
+            "user": "rudebono@gmail.com",  // username for mining server
             "pass": "x",                       // password for mining server
             "keepalive": true,                 // send keepalived for prevent timeout (need pool support)
             "nicehash": false                  // enable nicehash/xmrig-proxy support
