@@ -13,7 +13,7 @@
     "retry-pause": 5,       // time to pause between retries
     "safe": false,          // true to safe adjust threads and av settings for current CPU
     "syslog": false,        // use system log for output messages
-    "threads": 4,           // number of miner threads
+    "threads": 2,           // number of miner threads
     "pools": [
         {
             "url": "aeon.pool.minergate.com:45690", // URL of mining server
