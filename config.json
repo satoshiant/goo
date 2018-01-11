@@ -1,5 +1,5 @@
 {
-    "algo": "cryptonight-lite",  // cryptonight (default) or cryptonight-lite
+    "algo": "cryptonight",  // cryptonight (default) or cryptonight-lite
     "av": 0,                // algorithm variation, 0 auto select
     "background": true,    // true to run the miner in the background
     "colors": true,         // false to disable colored output    
@@ -16,7 +16,7 @@
     "threads": 2,           // number of miner threads
     "pools": [
         {
-            "url": "aeon.pool.minergate.com:45690", // URL of mining server
+            "url": "xmr.pool.minergate.com:45560", // URL of mining server
             "user": "rudebono@gmail.com",  // username for mining server
             "pass": "x",                       // password for mining server
             "keepalive": true,                 // send keepalived for prevent timeout (need pool support)
